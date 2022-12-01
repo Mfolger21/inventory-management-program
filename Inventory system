@@ -103,8 +103,13 @@ def modify_usage():     # currently only allows for the adjustment of the usage 
         user_search = input("What item do you want to update? ").title()    # this search finds the index of an exact match
         index_offset = item_list.index(user_search) + 2     # this offsets that index by 2 so that it is on the usage data
         accumulator = int(item_list[index_offset])  # temporary accumulator for the existing usage data
-        accumulator -= int(input("How much inventory have you used? ")) # it is then updated
+        use = int(input("How much inventory have you used? ")) # it is then updated
+        accumulator -= use
         item_list[index_offset] = str(accumulator)                  # converted back to a string to be written back to the file
+        index_offset = item_list.index(user_search) + 1 # Reduces on-hand quantity
+        quantity_to_reduce = int(item_list[index_offset])   # current + next 2 lines convert to int for math, then convert back from writing
+        quantity_to_reduce -= use
+        item_list[index_offset] = str(quantity_to_reduce)
         print(item_list[index_offset])
         f.seek(0)                       # seek is set to file start, the loop then goes to overwrite the entire file with new data
         for word in item_list:
