@@ -5,11 +5,11 @@
 - [x] Create Dashboard
 - [x] Create "View" feature to view all inventory
 - [x] Create "add items" feature to add new inventory with proper formatting
-- [ ] Convert features to functions (Partially complete)
-- [ ] Look for useable code in found repository (If nothing of use, create from scratch)
-- [ ] Create base code and add comments as it is done
-- [ ] Test and troubleshoot code
-- [ ] Rework code as neccesary
-- [ ] Test code until no errors
+- [x] Convert features to functions 
+- [x] Look for useable code in found repository (Unable to find anything for this build)
+- [x] Create base code and add comments as it is done
+- [x] Test and troubleshoot code
+- [x] Rework code as neccesary
+- [x] Test code until no errors
 - [ ] Finalize code
-- [ ] Ensure all changes have been committed to the Repository
+- [x] Ensure all changes have been committed to the Repository
