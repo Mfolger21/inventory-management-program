@@ -11,5 +11,5 @@
 - [x] Test and troubleshoot code
 - [x] Rework code as neccesary
 - [x] Test code until no errors
-- [ ] Finalize code
+- [x] Finalize code
 - [x] Ensure all changes have been committed to the Repository
