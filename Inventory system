@@ -5,7 +5,7 @@ def main_menu():
     print("Welcome to your inventory management dashboard!\n")
     print(" 1. Inventory Report\n", "2. Usage & Cost Report\n", "3. Add Item\n", "4. Update Product Usage")
     print(" 5. Update product cost\n","6. Update On-Hand Quantity\n")
-    print("** Enter 55 to Exit **")
+    print("** Enter 555 to Exit **")
     command = input("What would you like to do?: ")
     menu_choice(command)
 
